@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Welcome To Registration</h1>
+        <ol type="i" start="1">
+            <li>AI for Software Engineering</li>
+            <li>Full Stack Developer</li>
+            <li>Software Engineering</li>
+            <li>Dart and Flutter</li>
+            <li>Web Development</li>
+
+        </ol>
+        <img src="https://images.pexels.com/photos/30979273/pexels-photo-30979273.jpeg" alt="Urban rooftops and water tower in Japan" width="200" height="300">
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Grace Dee</td>
+                    <td>123 Main St, Nairobi</td>
+                    <td>+254712345678</td>
+                    <td>gracedee@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak St, Mombasa</td>
+                    <td>+254798765432</td>
+                    <td>janesmith@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>789 Pine St, Kisumu</td>
+                    <td>+254723456789</td>
+                    <td>michaelbrown@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>101 Maple St, Eldoret</td>
+                    <td>+254734567890</td>
+                    <td>alicejohnson@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>David Wilson</td>
+                    <td>202 Cedar St, Nakuru</td>
+                    <td>+254745678901</td>
+                    <td>davidwilson@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+      
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" placeholder="Enter Your Password" required minlength="6">
+            <br><br>
+
+            <label for="dob">Date Of Birth:</label>
+            <input type="text" id="dob" name="dob" required>
+
+            <label for="country">Select Country</label>
+            <select id="country" name="country" required>
+                <option value="">--Select--</option>
+                <option value="kenya">Kenya</option>
+                <option value="tanzania">Tanzania</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="south africa">South Africa</option>
+                <option value="niger">Niger</option>
+            </select>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="gender" name="gender" value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="gender" name="gender" value="female" required>
+            <label for="female">Female</label>
+
+            <input type="radio" id="gender" name="gender" value="other" required>
+            <label for="other">Other</label>
+            <br><br>
+
+            <label>Intrests:</label>
+            <input type="checkbox" id="coding" name="intrests" value="coding" required>
+            <label for="coding">Coding</label>
+
+            <input type="checkbox" id="sports" name="intrests" value="sports" required>
+            <label for="sports">Sports</label>
+
+            <input type="checkbox" id="music" name="intrests" value="music" required>
+            <label for="music">Music</label>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+        
+    </body>
+
+</html>
